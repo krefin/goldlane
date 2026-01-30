@@ -103,7 +103,7 @@ export function Navbar() {
                   transition: { staggerChildren: 0.1 },
                 },
               }}
-              className="mt-8 flex flex-col gap-4"
+              className="mt-8 flex flex-col gap-4 px-5"
             >
               {navItems.map((item, i) => (
                 <motion.div
