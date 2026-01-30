@@ -72,7 +72,7 @@ export default function Footer() {
                   />
                   <motion.span
                     whileHover={{ width: "100%" }}
-                    className="absolute left-0 -bottom-1 h-[1px] w-0 bg-yellow-400"
+                    className="absolute left-0 -bottom-1 h-px w-0 bg-yellow-400"
                   />
                   <Link href={link.href}>{link.label}</Link>
                 </li>
@@ -94,7 +94,7 @@ export default function Footer() {
                     </Link>
                     <motion.span
                       whileHover={{ width: "100%" }}
-                      className="absolute left-0 -bottom-1 h-[1px] w-0 bg-yellow-400"
+                      className="absolute left-0 -bottom-1 h-px w-0 bg-yellow-400"
                     />
                   </li>
                 ),

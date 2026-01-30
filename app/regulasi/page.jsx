@@ -124,7 +124,7 @@ export default function RegulasiSection() {
                   w: 140,
                 },
                 {
-                  src: "/img/OJK_logo.png",
+                  src: "/img/OJK.png",
                   alt: "Otoritas Jasa Keuangan (OJK)",
                   w: 120,
                 },
